@@ -52,11 +52,15 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interfaces\IGastoRepository.cs" />
+    <Compile Include="Interfaces\IGastoService.cs" />
     <Compile Include="Models\Categoria.cs" />
     <Compile Include="Models\Gasto.cs" />
     <Compile Include="Models\Usuario.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\GastoRepository.cs" />
+    <Compile Include="Services\GastoService.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
